@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Press+Start+2P&family=VT323&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "VT323", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom retro Minecraft & Bento style text shadows */
+.text-shadow-bento {
+  text-shadow: 4px 4px 0px #000000;
+}
+
+.text-shadow-bento-sm {
+  text-shadow: 2px 2px 0px #000000;
+}
+
+/* Bento custom flat blocky shadows */
+.bento-shadow-sm {
+  box-shadow: 4px 4px 0px #000000;
+}
+
+.bento-shadow {
+  box-shadow: 8px 8px 0px #000000;
+}
+
+/* Scrollbar styling for list components */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 5px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #1c1917;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #78716c;
+}
+
+/* Soft transition effects */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+

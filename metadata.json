@@ -1,0 +1,6 @@
+{
+  "name": "Rasin Minecraft Rodjendan",
+  "description": "Minecraft rodjendanska pozivnica za Rasin 7. rodjendan sa zabavnim igricama i detaljima proslave",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
